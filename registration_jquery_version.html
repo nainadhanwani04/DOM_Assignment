@@ -1,0 +1,77 @@
+<!DOCTYPE>
+<html>
+<head>
+<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+<link rel='stylesheet'type='text/css'href='regis_style_jquery.css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i'.  rel='stylesheet'>
+</head>
+<body>
+	<header>
+	<div class='primary-nav'>
+	<ul class='primary-nav-left'>
+	<li><div class='logo'></div></li>
+	<li><a href ='#'>My Apps</a></li>
+	<li><a href='#'>Marketplace</a></li>
+    </ul>
+    <ul class='primary-nav-right'>
+    <li><a href="#">Account</a></li>
+    <li><a href="#">Marketplace</a></li>
+    <li><a href="#" class="dropdown">Naina Dhanwani</a>
+    <ul class="dropdown-content" id="dropdown-links"></ul>
+   </li>
+    </ul>	
+	</div>
+	</header>
+     <div class='main-content'>
+      <ul class="main-content-left">Registration Page
+            <li><label>First Name</label>
+            <input type="text" name="firstName" id='firstName'></li>
+            <li><label>Last Name</label>
+            <input type="text" name="lastName" id='lastName'></li>
+            <li><label>Address(p)</label>
+            <input type="text" name="permanentAddress" id='permanentAddress'></li>
+            <li><input type="checkbox" name="addressCheckbox" id='checkbox'></li>
+            <li><label>Address(c)</label>
+            <input type="text" name="currentAddress" id="currentAddress"></li>
+            <li><label>Email-id</label>
+            <input type="email" name="email" id='email'></li>
+            <li><label>Phone No.</label>
+            <input type="text" name="phoneNo" id='phoneNo'></li>
+            <li><label>Password</label>
+            <input type="password" name="password" id='password'></li>
+            <li><label>Confirm Password</label>
+            <input type="password" name="confirmPassword" id='confirmPassword'></li>
+            <li><input type="button" name="reset" id='reset' value="Reset"></li>
+            <li><input type="button" name="submit" value='Submit' id='submit' disabled></li>  
+     </ul>
+     <div class='main-content-right'>
+          <h1>Dashboard</h1>
+            <ul class="dashboard-list-container">
+            </ul>
+     </div>
+     </div>
+     <footer>
+          <div class="footer">
+                    <ul class="footer-left">
+                         <li><div class="footer-logo"></div></li>
+                         <li>Powered by AppDirect ©️ 2009-2015</li>
+                    </ul>
+                    <ul class="footer-right">
+                    <li>
+                      <select class='language'>
+                       <option value="English(United States)">English(United States)</option>
+                       <option value="German">German</option>
+                      <option value="Chinese">Chinese</option>
+                      </select>
+                    </li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Contact</a></li>
+                    </ul>
+               </div>
+     </footer>
+	<script type="text/javascript" src="validationjquery.js"></script>
+</body>
+
+</html>

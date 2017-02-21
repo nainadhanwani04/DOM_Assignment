@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel='stylesheet'type='text/css'href='regis_style.css'>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel='stylesheet'>
+</head>
+<body>
+	<header>
+		<div class='header'>
+		 <ul class='primary-nav-left'>
+			<li><div class='logo'><a href=""></a></div></li>
+			<li><a href ='#'>My Apps</a></li>
+			<li><a href='#'>Marketplace</a></li>
+		 </ul>
+		<ul class='primary-nav-right'>
+		   <li><a href='#'>Account</a></li>
+		   <li> <a href='#'  class='dropdown-links' onclick='handleDropdownClick();'>Naina Dhanwani</a>
+			  <div id='AccountDropdown' class='dropdwn-content'>
+				  <ul class="menu-dropdown">
+					<li><a href='#'>My Profile</a></li>
+					<li><a href='#'>My Company</a><li>
+					<li><a href='#'>My Settings</a></li>
+					<li><a href='#'>Logout</a></li>
+				   </ul>
+			  </div>
+		   </li>
+		</ul>
+		</div>
+	</header>
+	<div class="main-content">
+		<div class="main-content-left"><h1>Registration Page</h1>
+			<form>
+			<ul class='formfields'>
+				<li class="formfields--item">
+				<label>First Name</label> 
+				<input type="text" id="firstName" name="firstName" ></li>
+				 <li class="formfields--item">
+				<label>Last Name</label> 
+				<input type="text"  id="lastName" name="lastName">
+				<li class="formfields--item">
+				<label>Address(P)</label> 
+				 <input type="text" name="address" id="presentAddress" ></li>
+				<li class="formfields--item">
+				<input type="checkbox" id="checkbox" name="checkbox"></li>
+				<li class="formfields--item">
+				<label>Address(C)</label> 
+				 <input type="text" name="sameAddress" id='localAddress' >
+				 </li>
+				 <li class="formfields--item">
+				 <label>Email-id</label>
+				 <input type="text" name="email" id="email" >
+				</li>
+				<li class="formfields--item"> 
+				<label>Phone No.</label> 
+				 <input type="text" name="phone" id="phoneNo" >
+				</li>
+				<li class="formfields--item">
+				<label>Password</label> 
+				 <input type="password" name="password" id="pass1"  required></li>
+				<li class="formfields--item">
+				<label>Confirm Password</label> 
+				<input type="password" name="confirmpassword" id="pass2" required>
+				</li>
+				<li class="formfields--item"><input type="Reset" class="reset">
+					<input type='button' value="submit" class='submit' id='submit' ></li>
+					</ul>
+			</form>
+		</div>
+		<div class="main-content-right">
+			<h1>Dashboard</h1>
+			<ul id='dashboard-list-container'></ul>
+		</div>
+		</div>
+		<footer>
+			<div class="footer">
+				<ul class="footer-left">
+					<li><div class="footer-logo"><a href=""></a></div></li>
+					<li>Powered by AppDirect ©️ 2009-2015</li>
+				</ul>
+				<ul class="footer-right">
+				<li>
+				  <select class='language'>
+				   <option value="English(United States)">English(United States)</option>
+				   <option value="German">German</option>
+				  <option value="Chinese">Chinese</option>
+				  </select>
+				</li>
+				<li><a href="#">Help Center</a></li>
+				<li><a href="#">Privacy Policy</a></li>
+				<li><a href="#">Terms and Conditions</a></li>
+				<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</footer>
+	<script type='text/javascript'src='./main.js'> </script>
+</body>
+</html>

@@ -1,0 +1,180 @@
+@charset "UTF-8";
+body, html {
+  margin: 0px !important;
+  height: 100%; }
+
+header {
+  background-color: #2d2a26; }
+
+.header {
+  width: 89%;
+  margin: 0 0 0 100px;
+  height: 60px;
+  display: flex; }
+
+.primary-nav-left {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 0px;
+  padding-right: 30px;
+  margin-top: 15px;
+  width: 50%;
+  margin-left: 20px !important; }
+  .primary-nav-left .logo {
+    margin-right: 20px;
+    margin-top: -5px;
+    background: url("./appdirect_logo.png");
+    width: 38px;
+    height: 38px;
+    background-size: 100% 100%; }
+  .primary-nav-left a {
+    margin-right: 30px;
+    text-decoration: none;
+    font-family: "Open Sans", Arial;
+    font-size: 16px;
+    color: #C0C0C0; }
+    .primary-nav-left a:hover {
+      border-bottom: 2px solid #575757;
+      color: #575757; }
+
+.primary-nav-right {
+  display: flex;
+  width: 50%;
+  list-style: none;
+  justify-content: flex-end; }
+  .primary-nav-right a {
+    margin-right: 30px;
+    text-decoration: none;
+    font-family: "Open Sans", Arial;
+    color: #C0C0C0;
+    font-size: 16px; }
+    .primary-nav-right a:hover {
+      color: #fff; }
+  .primary-nav-right .dropdown-links::after {
+    content: "▼"; }
+
+.dropdwn-content {
+  display: none;
+  list-style: none;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding-left: 0;
+  z-index: 999; }
+  .dropdwn-content--item {
+    background-color: #fff;
+    padding-left: 0 !important; }
+    .dropdwn-content--item a {
+      display: block;
+      padding: 5px 5px;
+      text-decoration: none;
+      font-family: "Open Sans", Arial;
+      color: #575757;
+      font-size: 14px; }
+      .dropdwn-content--item a:hover {
+        background-color: #2d2a26;
+        color: #fff; }
+
+.show {
+  display: block; }
+
+.main-content {
+  width: 89%;
+  margin: 0 0 0 100px;
+  height: 700px;
+  display: flex; }
+
+.main-content-left {
+  width: 60%;
+  margin-top: 20px;
+  border: 5px solid #C0C0C0; }
+  .main-content-left h1 {
+    text-align: center; }
+  .main-content-left .formfields {
+    margin: 20px;
+    list-style: none; }
+    .main-content-left .formfields--item {
+      padding-right: 30px;
+      padding-top: 15px;
+      font-family: "Open Sans", Arial;
+      font-size: 18px;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-around; }
+    .main-content-left .formfields input {
+      width: 60%;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      border: 3px solid #C0C0C0; }
+      .main-content-left .formfields input.reset {
+        width: 40%;
+        background-color: #C0C0C0; }
+      .main-content-left .formfields input.submit {
+        width: 40%;
+        background-color: #C0C0C0; }
+      .main-content-left .formfields input#checkbox {
+        width: 20%;
+        margin-left: 200px; }
+
+.main-content-right {
+  padding-left: 0px !important;
+  width: 40%;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: 5px solid #C0C0C0; }
+  .main-content-right h1 {
+    padding-left: 20px;
+    text-align: center; }
+  .main-content-right .dashboard-list-container {
+    margin: 20px;
+    list-style: none; }
+    .main-content-right .dashboard-list-container--item {
+      font-family: bold Arial 18px;
+      border: 1px solid black;
+      background-color: #C0C0C0;
+      text-align: center;
+      margin-right: 100px; }
+
+.footer {
+  width: 89%;
+  margin: 20px 0 0 100px;
+  height: 60px;
+  display: flex;
+  border-top: 1px solid #C0C0C0; }
+
+.footer-left {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 0px !important;
+  margin: 0px !important;
+  width: 50%; }
+  .footer-left--item {
+    padding-right: 30px;
+    padding-top: 15px;
+    font-family: "Open Sans", Arial;
+    color: #C0C0C0;
+    font-size: 12px; }
+  .footer-left .footer-logo {
+    background: url("./appdirect_footer.png");
+    width: 25px;
+    height: 25px;
+    background-size: 100% 100%;
+    margin-top: 5px; }
+
+.footer-right {
+  display: flex;
+  width: 50%;
+  list-style: none;
+  justify-content: flex-end; }
+  .footer-right a {
+    text-decoration: none;
+    font-family: "Open Sans", Arial;
+    color: #C0C0C0;
+    font-size: 12px;
+    margin-left: 5px; }
+    .footer-right a:hover {
+      border-bottom: 2px solid #575757;
+      color: #575757; }
+
+/*# sourceMappingURL=regis_style.css.map */

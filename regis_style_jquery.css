@@ -1,0 +1,154 @@
+body, html {
+  height: 100%; }
+
+header {
+  background-color: #2d2a26; }
+
+.primary-nav {
+  width: 89%;
+  margin: 0 50px 0 100px;
+  height: 60px;
+  display: flex; }
+
+.primary-nav-left {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  width: 50%; }
+  .primary-nav-left .logo {
+    background: url("./appdirect_logo.png");
+    width: 40px;
+    height: 37px;
+    background-size: 100% 100%; }
+  .primary-nav-left a {
+    padding-top: 35px;
+    text-decoration: none;
+    font-family: "Open Sans", Arial;
+    color: #C0C0C0;
+    font-size: 16px;
+    padding-left: 20px; }
+  .primary-nav-left a:hover {
+    border-bottom: 2px solid #575757;
+    color: #575757; }
+
+.primary-nav-right {
+  display: flex;
+  width: 50%;
+  list-style: none;
+  justify-content: flex-end; }
+  .primary-nav-right li {
+    padding-left: 30px; }
+    .primary-nav-right li a {
+      text-decoration: none;
+      font-family: "Open Sans", Arial;
+      color: #C0C0C0;
+      font-size: 16px; }
+    .primary-nav-right li:hover a {
+      color: #fff; }
+
+.main-content {
+  width: 89%;
+  margin: 0 50px 0 100px;
+  height: 520px;
+  display: flex; }
+
+.main-content-left {
+  width: 50%;
+  margin-top: 20px;
+  border: 3px solid #C0C0C0;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center; }
+  .main-content-left ul {
+    margin: 20px;
+    list-style: none; }
+  .main-content-left li {
+    padding-right: 10px;
+    padding-top: 15px;
+    font-family: "Open Sans", Arial;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between; }
+    .main-content-left li input {
+      width: 40%;
+      border: 3px solid #C0C0C0;
+      margin-right: 150px; }
+      .main-content-left li input#reset {
+        width: 40%;
+        background-color: #C0C0C0; }
+      .main-content-left li input#submit {
+        width: 40%;
+        background-color: #C0C0C0; }
+      .main-content-left li input#checkbox {
+        width: 20%;
+        margin-left: 200px; }
+
+.main-content-right {
+  padding-left: 0px !important;
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: 3px solid #C0C0C0;
+  overflow: scroll;
+  margin-bottom: 29px; }
+  .main-content-right h1 {
+    padding-left: 20px;
+    text-align: center; }
+  .main-content-right ul {
+    margin: 20px;
+    list-style: none; }
+  .main-content-right li {
+    font-family: "Open Sans", Arial;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    background-color: #C0C0C0;
+    text-align: center;
+    margin-right: 100px; }
+
+.footer {
+  width: 89%;
+  margin: 20px 0 0 100px;
+  height: 60px;
+  display: flex;
+  border-top: 1px solid #C0C0C0; }
+
+.footer-left {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 0px !important;
+  margin: 0px !important;
+  width: 50%; }
+  .footer-left ul {
+    margin-left: 20px !important; }
+  .footer-left li {
+    padding-right: 30px;
+    padding-top: 15px;
+    font-family: "Open Sans", Arial;
+    color: #C0C0C0;
+    font-size: 12px; }
+    .footer-left li .footer-logo {
+      background: url("./appdirect_footer.png");
+      width: 25px;
+      height: 25px;
+      background-size: 100% 100%; }
+
+.footer-right {
+  display: flex;
+  width: 50%;
+  list-style: none;
+  justify-content: flex-end; }
+  .footer-right li {
+    padding-left: 20px; }
+    .footer-right li a {
+      text-decoration: none;
+      font-family: "Open Sans", Arial;
+      color: #C0C0C0;
+      font-size: 12px; }
+    .footer-right li a:hover {
+      border-bottom: 2px solid #575757;
+      color: #575757; }
+
+/*# sourceMappingURL=regis_style_jquery.css.map */
